@@ -14,6 +14,13 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
+        boolean dynamicLoad = Boolean.getBoolean("dynamicLoad");
+        if(dynamicLoad && !DynamicLoad.isAspectJAgentLoaded()){
+            logger.error("AspectJ Not Loaded. Existing.");
+            System.exit(0);
+        }
+
         new Main().myFunc();
     }
 
