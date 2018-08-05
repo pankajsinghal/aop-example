@@ -6,7 +6,11 @@
 
     <groupId>aop-ltw</groupId>
     <artifactId>aop-ltw</artifactId>
+    <packaging>pom</packaging>
     <version>1.0</version>
+    <modules>
+        <module>aop-lib</module>
+    </modules>
 
 
 </project>
