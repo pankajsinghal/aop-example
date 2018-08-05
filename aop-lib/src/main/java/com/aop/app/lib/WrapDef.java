@@ -10,6 +10,8 @@ import org.slf4j.LoggerFactory;
 public class WrapDef {
     private static final Logger logger = LoggerFactory.getLogger(WrapDef.class);
 
+    public static boolean loaded = false;
+
     @Around("@annotation( wrapAnnotation ) && execution(* *(..))")
     public Object processSystemRequest(final ProceedingJoinPoint pjp, Wrap wrapAnnotation)
             throws Throwable {
@@ -17,5 +19,13 @@ public class WrapDef {
         Object o = pjp.proceed();
         logger.debug("after wrap");
         return o;
+    }
+
+    static {
+        System.out.println("Loading");
+        WrapDef.loaded = true;
+    }
+    public static void reportLoaded() {
+        System.out.println("loaded : " + loaded);
     }
 }

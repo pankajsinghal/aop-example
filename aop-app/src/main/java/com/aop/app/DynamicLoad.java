@@ -29,10 +29,10 @@ public class DynamicLoad {
         try {
             VirtualMachine vm = VirtualMachine.attach(pid);
             String jarFilePath = System.getProperty("AGENT_PATH");
-            System.out.println("loading javaegent " + jarFilePath);
+            System.out.println("loading javaAgent " + jarFilePath);
             vm.loadAgent(jarFilePath);
             vm.detach();
-            System.out.println("loaded javaegent " + jarFilePath);
+            System.out.println("loaded javaAgent " + jarFilePath);
         } catch (Exception e) {
             System.out.println(e);
             return false;

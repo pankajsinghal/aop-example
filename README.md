@@ -32,8 +32,10 @@ $ cd aop-ltw
 $ mvn clean install
 $ cd aop-app/target
 $ java -DdynamicLoad=true -DAGENT_PATH=deploy/lib/aspectjweaver-1.9.1.jar -classpath aop-app-1.0.jar:deploy/lib/* com.aop.app.Main
+com.aop.app.lib.WrapDef Loaded : false
 java.lang.UnsupportedOperationException: AspectJ weaving agent was neither started via '-javaagent' (preMain) nor attached via 'VirtualMachine.loadAgent' (agentMain)
-loading javaegent deploy/lib/aspectjweaver-1.9.1.jar
-loaded javaegent deploy/lib/aspectjweaver-1.9.1.jar
-15:18:57.915 [main] DEBUG com.aop.app.Main - inside myFunc
+loading javaAgent deploy/lib/aspectjweaver-1.9.1.jar
+loaded javaAgent deploy/lib/aspectjweaver-1.9.1.jar
+com.aop.app.lib.WrapDef Loaded : false
+15:53:08.543 [main] DEBUG com.aop.app.Main - inside myFunc
 ```
