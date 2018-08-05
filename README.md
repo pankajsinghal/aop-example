@@ -39,3 +39,5 @@ loaded javaAgent deploy/lib/aspectjweaver-1.9.1.jar
 com.aop.app.lib.WrapDef Loaded : false
 15:53:08.543 [main] DEBUG com.aop.app.Main - inside myFunc
 ```
+
+[Here](https://stackoverflow.com/questions/51693552/aspectj-aop-ltw-not-working-with-dynamic-loading-of-javaagent) is a question posted on stackoverflow.com to receive help from community :). I'll update with working code once I get any help.
