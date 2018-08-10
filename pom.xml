@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>aop-ltw</groupId>
-    <artifactId>aop-ltw</artifactId>
+    <groupId>aop-example</groupId>
+    <artifactId>aop-example</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
         <module>aop-lib</module>
-        <module>aop-app</module>
+        <module>aop-ltw</module>
     </modules>
 
 

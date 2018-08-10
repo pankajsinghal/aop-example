@@ -1,4 +1,4 @@
-package com.aop.app;
+package com.aop.ltw;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,9 +28,9 @@ public class Main {
         java.lang.reflect.Method m = ClassLoader.class.getDeclaredMethod("findLoadedClass", String.class);
         m.setAccessible(true);
         ClassLoader cl = ClassLoader.getSystemClassLoader();
-        Object test1 = m.invoke(cl, "com.aop.app.lib.WrapDef");
+        Object test1 = m.invoke(cl, "WrapDef");
         boolean loaded = test1 != null;
-        System.out.println("com.aop.app.lib.WrapDef Loaded : " + loaded);
+        System.out.println("WrapDef Loaded : " + loaded);
     }
 
 }
