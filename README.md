@@ -67,6 +67,13 @@ Loading
 ```
 
 
-#####References:
+##### References:
+
  - [AspectJ AOP LTW not working with dynamic loading of javaagent
 ](https://stackoverflow.com/questions/51693552/aspectj-aop-ltw-not-working-with-dynamic-loading-of-javaagent)
+
+
+##### Note:
+
+If you are coming via the [AspectJ AOP LTW not working with dynamic loading of javaagent
+](https://stackoverflow.com/questions/51693552/aspectj-aop-ltw-not-working-with-dynamic-loading-of-javaagent) question, please note that I've corrected the code in this repo & it's working now.
