@@ -11,6 +11,7 @@
     <modules>
         <module>aop-lib</module>
         <module>aop-ltw</module>
+        <module>aop-ctw</module>
     </modules>
 
 

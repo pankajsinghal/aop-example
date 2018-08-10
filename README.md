@@ -1,5 +1,28 @@
 # AOP Examples
 
+Working examples of compile time weaving(CTW) & load time weaving(LTW) in AOP 
+
+
+## AOP CTW
+Aspect Oriented Programming (AOP) Compile Time Weaving (CTW) Example
+
+For compile time weaving, you need to add `aspectj-maven-plugin` into your pom.
+This plugin weaves the aspects to the class with the aspect annotation while compiling the code.
+
+Steps to run:
+
+```sh
+$ cd aop-example
+$ mvn clean install
+$ cd aop-ctw/target
+$ java -classpath aop-ctw-1.0.jar:deploy/lib/* com.aop.ctw.Main
+Loading
+16:53:42.062 [main] DEBUG com.aop.lib.WrapDef - before wrap
+16:53:42.064 [main] DEBUG com.aop.ctw.Main - inside runCTWAopDemo
+16:53:42.064 [main] DEBUG com.aop.lib.WrapDef - after wrap
+```
+
+
 ## AOP LTW
 Aspect Oriented Programming (AOP) Load Time Weaving (LTW) Example
 

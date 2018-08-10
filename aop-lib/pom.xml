@@ -44,6 +44,9 @@
                 </configuration>
             </plugin>
             <plugin>
+                <!--
+                This plugin has been added to generate aop.xml (see <outxml>true</outxml> below). If you can write your own aop.xml - you can avoid this plugin
+                -->
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>aspectj-maven-plugin</artifactId>
                 <version>1.11</version>
