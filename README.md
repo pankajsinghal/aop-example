@@ -71,6 +71,16 @@ Loading
 
  - [AspectJ AOP LTW not working with dynamic loading of javaagent
 ](https://stackoverflow.com/questions/51693552/aspectj-aop-ltw-not-working-with-dynamic-loading-of-javaagent)
+- http://andrewclement.blogspot.com/2009/02/load-time-weaving-basics.html
+- https://stackoverflow.com/questions/17497039/how-to-specify-path-to-aop-xml-using-aspectj-maven-plugin
+- https://stackoverflow.com/questions/12423965/maven-aspectj-all-steps-to-configure-it
+- https://stackoverflow.com/questions/4817670/how-can-i-add-a-javaagent-to-a-jvm-without-stopping-the-jvm
+- https://blog.imaginea.com/weaving-with-aspectj/
+- https://stackoverflow.com/questions/33701756/aspectj-how-to-weave-an-aspect-library-into-a-java-project
+- http://www.eclipse.org/aspectj/doc/next/devguide/ltw.html
+- https://www.eclipse.org/aspectj/doc/released/README-187.html
+- https://www.eclipse.org/aspectj/doc/next/devguide/printable.html#ajc-ref-top
+- https://stackoverflow.com/questions/51693552/aspectj-aop-ltw-not-working-with-dynamic-loading-of-javaagent
 
 
 ##### Note:
